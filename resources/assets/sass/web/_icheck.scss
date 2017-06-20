@@ -1,0 +1,69 @@
+/***icheck css**/
+.icheckbox_square-gray,
+.iradio_square-gray {
+  display: inline-block;
+  *display: inline;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 22px;
+  background: url(../../img/web/grey.png) no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.icheckbox_square-gray {
+  background-position: 0 0;
+}
+
+.icheckbox_square-gray.hover {
+  background-position: -24px 0;
+}
+
+.icheckbox_square-gray.checked {
+  background-position: -48px 0;
+}
+
+.icheckbox_square-gray.disabled {
+  background-position: -72px 0;
+  cursor: default;
+}
+
+.icheckbox_square-gray.checked.disabled {
+  background-position: -96px 0;
+}
+
+.iradio_square-gray {
+  background-position: -120px 0;
+}
+
+.iradio_square-gray.hover {
+  background-position: -144px 0;
+}
+
+.iradio_square-gray.checked {
+  background-position: -168px 0;
+}
+
+.iradio_square-gray.disabled {
+  background-position: -192px 0;
+  cursor: default;
+}
+
+.iradio_square-gray.checked.disabled {
+  background-position: -216px 0;
+}
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5 / 4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi),
+(min-resolution: 1.25dppx) {
+  .icheckbox_square-gray,
+  .iradio_square-gray {
+    background-image: url(../../img/web/grey@2x.png);
+    -webkit-background-size: 240px 24px;
+    background-size: 240px 24px;
+  }
+}

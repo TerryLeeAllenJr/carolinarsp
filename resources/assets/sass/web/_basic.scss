@@ -1,0 +1,121 @@
+/* Basic Styles
+================================================== */
+
+body {
+  font-family: "copperplateregular", sans-serif;
+  background: #fff;
+  -webkit-text-size-adjust: 100%;
+  cursor: default;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #777;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+
+  &:hover, &:focus{
+    text-decoration: none;
+  }
+
+  &.hover-color {
+    @include anchor-hover(0.3s);
+  }
+
+  &.hover-color a:hover {
+    @include anchor-hover-hover( #4c779e, 0.3s );
+  }
+
+}
+
+.blog-post-title, .news-post-cat {
+
+  // TODO: Not sure if this is necesarry.
+  a:hover {
+    @include anchor-hover(0.3s);
+    @include anchor-hover-hover( #4c779e, 0.3s );
+  }
+
+}
+
+.padd-section {
+  padding: 90px 0;
+}
+
+.onepage-home {
+  padding-top: 60px;
+}
+
+p {
+
+  &.lead {
+    font-weight: 400;
+  }
+
+}
+
+p, blockquote {
+  line-height: 23px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+
+i {
+  display: inline-block;
+}
+
+/* Enable custom submit button styling in Safari mobile */
+input[type='submit'] {
+  -webkit-appearance: none;
+}
+
+label {
+  font-weight: 400;
+  color: #000;
+}
+
+::-moz-selection {
+  color: #fff;
+  text-shadow: none;
+  background-color: #4c779e;
+}
+
+::selection {
+  color: #fff;
+  text-shadow: none;
+  background-color: #4c779e;
+}
+
+iframe, fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.responsive-video {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  padding-top: 50.25%;
+}
+
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overflow-hidden {
+  overflow-x: hidden;
+}

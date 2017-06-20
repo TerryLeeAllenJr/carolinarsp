@@ -1,0 +1,14 @@
+@mixin anchor-hover($time) {
+  -moz-transition: all $time ease-in;
+  -o-transition: all $time ease-in;
+  -webkit-transition: all $time ease-in;
+  transition: all $time ease-in;
+}
+
+@mixin anchor-hover-hover($color, $time) {
+  color: $color !important;
+  -moz-transition: all $time ease-in;
+  -o-transition: all $time ease-in;
+  -webkit-transition: all $time ease-in;
+  transition: all $time ease-in;
+}

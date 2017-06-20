@@ -1,0 +1,98 @@
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-family: "hoefler_textregular", sans-serif;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+
+.slider-logo {
+  text-shadow: 1px 1px 1px #000000;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+h2.slider-logo {
+  font-size: 100px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 8px;
+
+  &.heading-sec {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 40px;
+    color: #000;
+    font-size: 29px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+
+  &.subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b3b3b3;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+  }
+
+}
+
+h3.slider-logo {
+  font-family: 'copperplateregular';
+}
+
+h4 {
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 4px;
+
+  &.heading-mini {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+}
+
+h5 {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 80%;
+}
+
+
+
