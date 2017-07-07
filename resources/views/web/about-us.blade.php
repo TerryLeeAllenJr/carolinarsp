@@ -18,7 +18,7 @@
             <div class="col-lg-6">
                 <h4 class="heading-mini">About our company</h4>
                 <p>
-                    Carolina Roofing, Siding, Painting is a local, family owned company founded by Joe Reilly in 2017.
+                    Carolina Roofing, Siding, Painting is a local, family owned company founded by Joe Reilly.
                     Joe has more than 30 years experience in the construction industry, with experience not only selling jobs,
                     and running jobs and running crews, but repairing and installing as well.
                 </p>
