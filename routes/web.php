@@ -38,6 +38,11 @@ Route::post('/contact', [
     'uses' => 'ContactController@postContact'
 ]);
 
+Route::get('/financing', [
+    'as' => 'web.contact',
+    'uses' => 'FinanceController@showPage'
+]);
+
 Route::get('/services', [
     'as' => 'web.services',
     'uses' => 'ServiceController@showPage'

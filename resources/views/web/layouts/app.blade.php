@@ -49,6 +49,10 @@
                     <a href="/about-us" class="nav-link">About Us</a>
                 </li>
 
+                <li class="{{($page == 'financing') ? 'active' : ''}} dropdown nav-item">
+                    <a href="/financing" class="nav-link">Financing</a>
+                </li>
+
                 <li class="{{($page == 'contact') ? 'active' : ''}} dropdown nav-item">
                     <a href="/contact" class="nav-link">Contact</a>
                 </li>
