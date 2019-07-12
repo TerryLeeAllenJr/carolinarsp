@@ -11,18 +11,10 @@ class HomeController extends Controller
 {
     public function showPage(Request $request)
     {
-
-        try{
-            $recentWork = RecentWorkService::getRecentWork();
-        }catch( ServiceException $e ){
-            throw new NotFoundHttpException($e);
-        }
-
         return view(
             'web.home',
             [
-                'page' => 'home',
-                'recentWork' => $recentWork
+                'page' => 'home'
             ]
         );
     }

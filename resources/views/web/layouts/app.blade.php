@@ -79,10 +79,10 @@
                 <div class="footer-col">
                     <h3>Contact Info</h3>
                     <!-- TODO: Get Joe's PO BOX Address or use home address -->
-                    <p><i class="ion-home"></i> 2764 Pleasnt Road Suite A # 10342</p>
-                    <p>Fort Mill, SC 29708</p>
-                    <a><i class="ion-iphone"></i> <a href="tel:7048041856">(704) 804-1856</a></p>
-                    <p><i class="ion-email"></i> <a href="mailto:joe@carolinarsp.com">joe@carolinarsp.com</a></p>
+                    <p><i class="ion-home"></i> {{$contactInfo['addressStreet']}} </p>
+                    <p>{{$contactInfo['addressCity']}}, {{$contactInfo['addressState']}} {{$contactInfo['zipCode']}}</p>
+                    <a><i class="ion-iphone"></i> <a href="tel:{{$contactInfo['phoneNumber']}}">{{$contactInfo['phoneNumber']}}</a></p>
+                    <p><i class="ion-email"></i> <a href="mailto:{{$contactInfo['email']}}">{{$contactInfo['email']}}</a></p>
                 </div>
                 <div class="space-20"></div>
             </div><!--col-4 end-->

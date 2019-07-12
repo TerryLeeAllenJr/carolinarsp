@@ -16,9 +16,8 @@
             <div class="col-md-5">
                 <h4 class="heading-mini">We’d Love to Hear From You</h4>
                 <p>Get in touch using the contact details below:</p>
-                <p>2764 Pleasnt Road</p>
-                <p>Suite A # 10342</p>
-                <p>Fort Mill, SC 29708 </p>
+                <p>141 Pecan Grove Drive</p>
+                <p>Campobello, SC 29322 </p>
                 <p>Phone: (704) 804-1856</p>
                 <p>Email: <a href="mailto:joe@carolinarsp.com">joe@carolinarsp.com</a></p>
             </div>

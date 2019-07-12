@@ -24,11 +24,11 @@
                     Home Improvement Financing Available
                 </h4>
 
-                <p>We have partnered with Hearth to provide financing options for your project. Hearth provides our
-                    customers with several options for financing, and provides assistance in selecting the best
-                    financing options for your needs. If you would like more information on the services Hearth provides,
-                    visit their site by clicking on the hearth logo to the left. In addition to offering pre-approval,
-                    their site provides a wealth of information to help you make a decision about financing.</p>
+                <p>CarolinaRSP has partnered with Hearth to provide financing options for your project. In addition to
+                    offering several options to fit your individual needs, Hearth provides education and assistance in
+                    selecting the best financing options for you. If you would like more information on the
+                    services Hearth provides, or to get pre-approved for a Home Improvement Loan, visit their site by
+                    clicking on the hearth logo to the left.</p>
 
                 <h4 class="heading-mini">Hearth Provides:</h4>
                 <ul class="icon-list list-unstyled">
